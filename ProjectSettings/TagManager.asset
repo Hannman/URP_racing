@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Car
   - Ring
+  - tunnel
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - Post Processing
   - Objectives
   - Car
-  - 
+  - tunnel
   - 
   - 
   - 
