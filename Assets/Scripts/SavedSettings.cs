@@ -1,9 +1,7 @@
 public static class SavedSettings
 {
     public static bool fpsCounter { get; set; }
-    public static bool Shadows { get; set; }
-    public static bool vSync { get; set; }
-    public static bool antiAliasing { get; set; }
+    public static int Quality { get; set; }
     public static float carSoundLevel { get; set; }
     public static float musicLevel { get; set; }
     public static float effectsLevel { get; set; }
@@ -16,9 +14,7 @@ public static class SavedSettings
     {
         //Default settings
         fpsCounter = false;
-        Shadows = true;
-        vSync = false;
-        antiAliasing = false;
+        Quality = 4;
         carSoundLevel = 0.8f;
         musicLevel = 0.8f;
         effectsLevel = 0.95f;

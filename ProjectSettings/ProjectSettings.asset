@@ -154,7 +154,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.MyDemoGame.HGMRacingversion3.3
+    Standalone: com.MyDemoGame.HGM-Racing--version-3.3-
   buildNumber:
     Standalone: 0
     iPhone: 0

@@ -11,7 +11,6 @@ public class FramerateControl : MonoBehaviour
 
     void Start()
     {
-        Application.targetFrameRate = SavedSettings.vSync ? Screen.currentResolution.refreshRate : 300;
         fpsToggle.SetIsOnWithoutNotify(SavedSettings.fpsCounter);
         frameCounter.SetActive(SavedSettings.fpsCounter);
     }
